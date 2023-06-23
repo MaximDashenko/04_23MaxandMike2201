@@ -33,7 +33,6 @@ namespace max {
         sort<T, size>(array, default_comparator);
     }
 
-
     // specialized template for unsigned int
     // radix-sort
     template<int size>
