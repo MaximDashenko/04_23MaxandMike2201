@@ -3,4 +3,4 @@ project(04_23MaxandMike2201)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(04_23MaxandMike2201 src/main.cpp)
+add_executable(04_23MaxandMike2201 src/main.cpp src/general/comparator.h)
