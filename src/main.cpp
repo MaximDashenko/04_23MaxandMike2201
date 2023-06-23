@@ -12,7 +12,7 @@ void print_array(T (&array)[size]) {
 }
 
 int main() {
-    int array[] = {10, 3, 4, 3, 4, 9, 1, 0, -10, -5};
+    unsigned int array[] = {10, 3, 4, 3, 4, 9, 1, 0};
     max::sort(array);
     print_array(array);
     return 0;
